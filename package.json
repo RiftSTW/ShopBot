@@ -1,0 +1,19 @@
+{
+  "name": "shopbot",
+  "version": "1.0.0",
+  "description": "Twitter bot that saves the Fortnite Item Shop and posts the image to twitter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fortnite"
+  ],
+  "author": "Rift",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "canvas": "^2.6.1",
+    "twitter": "^1.7.1"
+  }
+}
