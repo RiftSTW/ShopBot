@@ -14,11 +14,11 @@ Node.JS can be found here: https://nodejs.org/en/ (It is recommended to download
 
 You will need to obtain a copy of BurbankBigCondensed-Black.otf for this to work! This is the font which Epic Games uses for Fortnite assets.
 
-## Purchase Burbank
+# Purchase Burbank
 
 - Adobe: https://fonts.adobe.com/fonts/burbank
 
-#Installation:
+# Installation:
 
 Install all of the required packages by doing "npm install" (without quotations)
 
