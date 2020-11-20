@@ -15,7 +15,7 @@ module.exports = {
             let canvas = Canvas.createCanvas(1280, canvasHeight);
             let ctx = canvas.getContext('2d');
             ctx.drawImage(background, 0, 0, canvas.width, canvas.height)
-            //EN TETE
+
             let date = new Date(data.date);
             ctx.font = "100px Burbank Big Cd Bk";
             ctx.fillStyle = '#ffffff';
