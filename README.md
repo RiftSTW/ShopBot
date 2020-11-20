@@ -8,10 +8,17 @@ Any problems? Feel free to tell me on my discord server! https://discord.js/GvHf
 Requires:
 
 Node.JS
+BurbankBigCondensed-Black font
 
 Node.JS can be found here: https://nodejs.org/en/ (It is recommended to download the LTS version)
 
-Installation:
+You will need to obtain a copy of BurbankBigCondensed-Black.otf for this to work! This is the font which Epic Games uses for Fortnite assets.
+
+## Purchase Burbank
+
+- Adobe: https://fonts.adobe.com/fonts/burbank
+
+#Installation:
 
 Install all of the required packages by doing "npm install" (without quotations)
 
