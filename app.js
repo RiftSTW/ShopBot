@@ -42,7 +42,7 @@ fs.stat('./final/shop.png', async function(err, stats) {
       // Lets tweet it
       var date = new Date();
       var status = {
-        status: `#Fortnite Item Shop for Sunday, ${date} #FortniteBR #FortniteItemShop Use Support-A-Creator Code: ${config.sac} #ad`,
+        status: `#Fortnite Item Shop for, ${date} #FortniteBR #FortniteItemShop Use Support-A-Creator Code: ${config.sac} #ad`,
         media_ids: media.media_id_string
       }
   
