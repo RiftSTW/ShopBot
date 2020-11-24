@@ -50,6 +50,7 @@ fs.stat('./final/shop.png', async function(err, stats) {
         if (!error) {
           console.log(tweet);
           console.log("Item shop has been tweeted!")
+          fs.unlink('./final/shop.png', (err) => {});
         }
       });
   
