@@ -16,9 +16,12 @@ fs.stat('./final/shop.png', async function(err, stats) {
     console.log("No error lol")
     }
     else {
-        const response = await axios({method: 'get',url: 'https://fortnite-api.com/v2/shop/br/combined?language=en'})
-        await GenerateShop(response.data.data).then(async (value) => {
-            
+      const response = await axios.get('https://fortniteapi.io/v1/shop?lang=en', {
+        headers: {
+          'Authorization': 'PUTH AUTH KEY TO FORTNITEAPI.IO HERE!'
+        }
+      });
+        await GenerateShop(response.data).then(async (value) => {           
         })
     }
 
@@ -42,7 +45,8 @@ fs.stat('./final/shop.png', async function(err, stats) {
       // Lets tweet it
       var date = new Date();
       var status = {
-        status: `#Fortnite Item Shop for, ${date} #FortniteBR #FortniteItemShop Use Support-A-Creator Code: ${config.sac} #ad`,
+        status: `#Fortnite Item Shop for, ${date} #FortniteBR #FortniteItemShop
+Follow my main account! @RiftSTW1 Use Support-A-Creator Code: ${config.sac} #ad`,
         media_ids: media.media_id_string
       }
   
