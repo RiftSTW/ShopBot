@@ -35,4 +35,4 @@ Go to config.json and change your sac to yours (If you don't have one change it 
 
 Once you have the font downloaded make a folder in the ShopBot directory named ".fonts" (without quotations) and put that font in there
 
-Once your API Keys are in the app.js save the js file and do the same with your sac code in config.json load start.bat and watch the bot tweet the shop!
+Once your API Keys are in the app.js save the js file and do the same with your sac code in config.json go to the final folder and delete the included shop then launch the start.bat!
