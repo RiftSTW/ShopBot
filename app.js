@@ -8,6 +8,7 @@ const config = require("./config.json")
 const { GenerateShop } = require('./functions/shop.js')
 
 console.log("Fortnite Shop Bot developed by: RiftSTW")
+console.log("Image generation made by: tornado")
 console.log(`SAC Code used: ${config.sac}`)
 console.log("Grabbing Item Shop Image...")
 
