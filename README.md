@@ -1,7 +1,7 @@
 # ShopBot
 Bot programmed in Node.JS that grabs the Fortnite item shop and puts them in a neat image and posts them on twitter!
 
-Any problems? Feel free to tell me on my discord server! https://discord.js/GvHfG33
+Any problems? Feel free to tell me on my discord server! https://discord.gg/GvHfG33
 
 # Installation & Requirements
 
